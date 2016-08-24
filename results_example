@@ -1,0 +1,6 @@
+ID  Instrument  Buy/Sell    Amount  Open Time   Close Time  Gross P/L   Open Rate   Close Rate  Open Value  Close Value Premium Adjustments Net P/L
+12345   EUR/USD Sell    40.000,00 € 3/30/2016 1:45:40 PM    3/30/2016 1:58:46 PM    AU-$83.22   1.13110 1.13270 $45,244.00  $45,308.00  AU$0.00 --  AU-$83.22
+12345  EUR/USD Buy 10.000,00 € 6/24/2016 3:53:05 AM    6/24/2016 3:54:26 AM    AU$35.53    1.09240 1.09500 $10,924.00  $10,950.00  AU$0.00 --  AU$35.53
+99433   Gold    Short   20 Ounces   3/29/2016 2:05:22 AM    3/29/2016 8:03:26 AM    AU$50.72    1219.62 1217.71 $24,392.40  $24,354.20  AU-$0.95    --  AU$49.76
+99321   USA 500 Short   20 Contracts    3/16/2016 1:10:42 AM    3/16/2016 7:55:26 AM    AU$61.48    2010.09 2007.80 $40,201.80  $40,156.00  AU$0.00 --  AU$61.48
+10321  Microsoft   Buy 50 Shares   4/22/2016 2:09:49 PM    4/22/2016 2:45:32 PM    AU-$14.87   51.27   51.04   $2,563.50   $2,552.00   AU$0.00 --  AU-$14.87

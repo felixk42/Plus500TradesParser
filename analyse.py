@@ -1,12 +1,17 @@
 import re
+import sys
 
 def parse_net_pl(s):
     ret = float(re.search(r"[\-]?\$[0-9\.]+",s.replace(",","")).group().replace("$",""))
     return ret
 
 if __name__ == "__main__":
-  print "reading file"
-  f = open ("tradings")
+  if len(sys.argv) != 2:
+    print "usage: %s tradings_result_file"
+    sys.exit(-1)
+  file_name = sys.argv[1]
+  print "reading file %s " % file_name
+  f = open (file_name)
   tagline = f.readline()
 
   tags = [] # array of strings
